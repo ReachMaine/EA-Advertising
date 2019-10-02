@@ -1,0 +1,22 @@
+/*
+ Theme Name:  EA Advertising
+ Description:  Child Theme for Divi for Ellsworth American advertising
+ Author:       Reach Maine Marketing
+ Template:     Divi
+ Version:      1.0.0
+*/
+/*****Add any custom CSS below this line*****/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* basic css stuff */
+#footer-bottom #footer-info {
+  width: 100%; }
+  #footer-bottom #footer-info .reach-customer-copyright {
+    float: left; }
+  #footer-bottom #footer-info .reach-branding {
+    float: right; }
+    #footer-bottom #footer-info .reach-branding a:before {
+      content: url("images/reach-favicon.png");
+      padding-right: 4px; }
+
+/* **** media **** */
