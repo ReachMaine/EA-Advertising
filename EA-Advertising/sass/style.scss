@@ -10,6 +10,7 @@
 
 @import "partials/colors";
 @import "partials/basics";
+@import "partials/gform";
 
 
 
@@ -19,7 +20,7 @@
     .reach-customer-copyright {
       float: left;
     }
-    .reach-branding{
+    .reach-branding { 
       float: right;
       a:before {
         content: url('images/reach-favicon.png');
