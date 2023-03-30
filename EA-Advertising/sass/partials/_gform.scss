@@ -15,4 +15,34 @@
 		}
 
 	} // gform footer
+	// multi-step form (grad ad)
+	.gf_progressbar_percentage {
+		background-color: $adv-green!important;
+	}
+	.gform_page_footer {
+		input[type=button], input[type=submit] {
+			padding: 6px 20px;
+		    border-width: 0px;
+		    font-size: 20px!important;
+		    text-align: center;
+		    cursor: pointer;
+
+		}
+		input[type=button] { //  Next & Previous  look like buttons on the site.
+			//color: black!important;
+			color: white!important;
+			background-color: $adv-bright-blue!important;
+		}
+		input[type=button]:hover { //  Next & Previous  look like buttons on the site.
+			color: white!important;
+			background-color: $adv-green!important;
+		}
+		input[type=submit] { //  Submit & save for later  look like buttons on the site.
+			color: $form-button-font-color;
+			background-color: $form-button-bkg;
+		}
+		input[type=submit]:hover {
+			background-color: $adv-green!important;
+		}
+	}
 } // gform wrapper

@@ -21,6 +21,25 @@
     text-align: center;
     cursor: pointer;
     background-color: black; }
+.gform_wrapper .gf_progressbar_percentage {
+  background-color: #6eba01 !important; }
+.gform_wrapper .gform_page_footer input[type=button], .gform_wrapper .gform_page_footer input[type=submit] {
+  padding: 6px 20px;
+  border-width: 0px;
+  font-size: 20px !important;
+  text-align: center;
+  cursor: pointer; }
+.gform_wrapper .gform_page_footer input[type=button] {
+  color: white !important;
+  background-color: #00AEEF !important; }
+.gform_wrapper .gform_page_footer input[type=button]:hover {
+  color: white !important;
+  background-color: #6eba01 !important; }
+.gform_wrapper .gform_page_footer input[type=submit] {
+  color: white;
+  background-color: black; }
+.gform_wrapper .gform_page_footer input[type=submit]:hover {
+  background-color: #6eba01 !important; }
 
 #footer-bottom #footer-info {
   width: 100%; }
